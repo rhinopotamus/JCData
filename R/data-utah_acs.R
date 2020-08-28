@@ -6,33 +6,32 @@
 #' \describe{
 #'   \item{AGEP}{Age of the person}
 #'   \item{SCHL}{Educational attainment:
-#'       \enumerate{
-#'         \setcounter{enumi}{0}
-#'           \item N/A (less than 3 years old)
-#'           \item No schooling completed
-#'           \item Nursery school, preschool
-#'           \item Kindergarten
-#'           \item Grade 1
-#'           \item Grade 2
-#'           \item Grade 3
-#'           \item Grade 4
-#'           \item Grade 5
-#'           \item Grade 6
-#'           \item Grade 7
-#'           \item Grade 8
-#'           \item Grade 9
-#'           \item Grade 10
-#'           \item Grade 11
-#'           \item 12th grade - no diploma
-#'           \item Regular high school diploma
-#'           \item GED or alternative credential
-#'           \item Some college, but less than 1 year
-#'           \item 1 or more years of college credit, no degree
-#'           \item Associate's degree
-#'           \item Bachelor's degree
-#'           \item Master's degree
-#'           \item Professional degree beyond a bachelor's degree
-#'           \item Doctorate degree
+#'       \itemize{
+#'           \item 0: N/A (less than 3 years old)
+#'           \item 1: No schooling completed
+#'           \item 2: Nursery school, preschool
+#'           \item 3: Kindergarten
+#'           \item 4: Grade 1
+#'           \item 5: Grade 2
+#'           \item 6: Grade 3
+#'           \item 7: Grade 4
+#'           \item 8: Grade 5
+#'           \item 9: Grade 6
+#'           \item 10: Grade 7
+#'           \item 11: Grade 8
+#'           \item 12: Grade 9
+#'           \item 13: Grade 10
+#'           \item 14: Grade 11
+#'           \item 15: 12th grade - no diploma
+#'           \item 16: Regular high school diploma
+#'           \item 17: GED or alternative credential
+#'           \item 18: Some college, but less than 1 year
+#'           \item 19: 1 or more years of college credit, no degree
+#'           \item 20: Associate's degree
+#'           \item 21: Bachelor's degree
+#'           \item 22: Master's degree
+#'           \item 23: Professional degree beyond a bachelor's degree
+#'           \item 24: Doctorate degree
 #'       }
 #'   }
 #'   \item{SSP}{Social Security income past 12 months}
